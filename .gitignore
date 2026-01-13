@@ -1,0 +1,51 @@
+# Trading data (personal financial info - DO NOT COMMIT)
+*.csv
+trading_data/
+data/
+
+# Personal files with real financial data (local only)
+*_PERSONAL.md
+*_PERSONAL.bat
+*_PERSONAL.py
+
+# Local config with real paths (use config_example.py as template)
+config.py
+
+# Vector DB files
+faiss_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Vector DB files (if using RAG features)
+faiss_index/
+chroma_db/
+*.faiss
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
